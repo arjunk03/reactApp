@@ -1,7 +1,11 @@
+import Hello from "./componenets/Hello";
+
 function App() {
   return (
     <>
-      <div>Hello world</div>
+      <div>
+        <Hello />
+      </div>
     </>
   );
 }
