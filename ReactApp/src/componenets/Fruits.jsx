@@ -2,9 +2,11 @@ export default function Fruits() {
   const fruits = ["Apple", "Grapes", "Banana"];
   return (
     <div>
-      {fruits.map((fruit) => (
-        <h1>{fruit}</h1>
-      ))}
+      <ul>
+        {fruits.map((fruit) => (
+          <li>{fruit}</li>
+        ))}
+      </ul>
     </div>
   );
 }
