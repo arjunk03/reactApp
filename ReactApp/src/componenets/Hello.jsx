@@ -5,7 +5,12 @@ function displayMessage() {
 }
 
 function Hello() {
-  return <h1>Hello from a component , {displayMessage()}</h1>;
+  return (
+    <div>
+      <h1>Hello from a component , {displayMessage()}</h1>
+      <h2>Good morning</h2>
+    </div>
+  );
 }
 
 export default Hello;
