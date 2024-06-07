@@ -1,10 +1,9 @@
-function Hello(props) {
+function Hello({ person }) {
   //   const { name, msg } = props;
   return (
     <div>
       <h1>
-        {props.person.msg} {props.person.name}
-        {props.person.seatNumbers}
+        {person.msg} {person.name} {person.seatNumbers}
       </h1>
     </div>
   );
