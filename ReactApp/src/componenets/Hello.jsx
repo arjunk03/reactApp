@@ -1,8 +1,9 @@
 function Hello(props) {
+  const { name, msg } = props;
   return (
     <div>
       <h1>
-        {props.msg} {props.name}{" "}
+        {msg} {name}{" "}
       </h1>
     </div>
   );
