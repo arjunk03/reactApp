@@ -1,14 +1,9 @@
-const name = "Arjun";
-
-function displayMessage() {
-  return "Woww!!";
-}
-
-function Hello() {
+function Hello(props) {
   return (
     <div>
-      <h1>Hello from a component , {displayMessage()}</h1>
-      <h2>Good morning</h2>
+      <h1>
+        {props.msg} {props.name}{" "}
+      </h1>
     </div>
   );
 }
