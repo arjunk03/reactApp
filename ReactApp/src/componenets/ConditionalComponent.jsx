@@ -2,8 +2,7 @@ import Code from "./Code";
 import Welcome from "./Welcome";
 
 export default function ConditionalComponent() {
-  const display = false;
-
+  //   const display = false;
   //   if (display) {
   //     return (
   //       <div>
@@ -17,10 +16,19 @@ export default function ConditionalComponent() {
   //       </div>
   //     );
   //   }
+  //   const display = false;
+  //   if (display) {
+  //     return <Welcome />;
+  //   } else {
+  //     return <Code />;
+  //   }
 
+  let message;
+  const display = true;
   if (display) {
-    return <Welcome />;
+    message = <h1>This is message 1</h1>;
   } else {
-    return <Code />;
+    message = <h1>This is message 2</h1>;
   }
+  return message;
 }
