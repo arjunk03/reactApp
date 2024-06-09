@@ -2,11 +2,11 @@ import { useState } from "react";
 
 export default function From() {
   const [name, setName] = useState("");
-  function handleChange(evt) {
-    console.log("change occured");
-    console.log(evt.target.value);
-    setName(evt.target.value);
-  }
+  //   function handleChange(evt) {
+  //     console.log("change occured");
+  //     console.log(evt.target.value);
+  //     setName(evt.target.value);
+  //   }
 
   return (
     <div>
