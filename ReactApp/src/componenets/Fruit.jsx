@@ -1,6 +1,6 @@
 export default function Fruit({ name, price }) {
   return (
-    <div>
+    <>
       {/* {name} {price} */}
 
       {price > 20 ? (
@@ -13,6 +13,6 @@ export default function Fruit({ name, price }) {
       ) : (
         ""
       )}
-    </div>
+    </>
   );
 }
