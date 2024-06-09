@@ -16,10 +16,17 @@ export default function From() {
           //     return handleChange(e);
           //   }}
           //   onChange={(e) => handleChange(e)}
-          onChange={(e) => setName({ firstName: e.target.value, lastName: "" })}
+          onChange={(e) => setName({ ...name, firstName: e.target.value })}
           type="text"
           value={name.firstName}
           placeholder="First name"
+        />
+
+        <input
+          onChange={(e) => setName({ ...name, lastName: e.target.value })}
+          type="text"
+          value={name.lastName}
+          placeholder="Last name"
         />
       </form>
     </div>
