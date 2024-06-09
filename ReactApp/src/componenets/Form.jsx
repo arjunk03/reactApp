@@ -5,6 +5,7 @@ export default function From() {
   function handleChange(evt) {
     console.log("change occured");
     console.log(evt.target.value);
+    setName(evt.target.value);
   }
 
   return (
