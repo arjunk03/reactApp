@@ -9,6 +9,7 @@ export default function Todo() {
     // setTodo()
     setTodos([...todos, todo]);
     console.log(todos);
+    setTodo("");
   }
 
   return (
