@@ -1,3 +1,3 @@
 export default function TodoItem({ item }) {
-  return <h3>{item}</h3>;
+  return <h3 style={{ color: "red" }}>{item}</h3>;
 }
