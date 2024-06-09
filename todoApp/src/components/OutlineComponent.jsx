@@ -1,3 +1,4 @@
+import "../css/style.css";
 export default function OutlineComponent() {
-  return <h1>This is an outline </h1>;
+  return <h1 className="header">This is an outline </h1>;
 }
