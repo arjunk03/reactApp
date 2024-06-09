@@ -15,7 +15,8 @@ export default function From() {
           //   onChange={function evnt(e) {
           //     return handleChange(e);
           //   }}
-          onChange={(e) => handleChange(e)}
+          //   onChange={(e) => handleChange(e)}
+          onChange={(e) => setName(e.target.value)}
           type="text"
           value={name}
           placeholder="First name"
