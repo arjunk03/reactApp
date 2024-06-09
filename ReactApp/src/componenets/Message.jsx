@@ -1,6 +1,6 @@
 export default function Message() {
   function handleClick() {
-    alert("Clicked the buttom");
+    console.log("Clicked the buttom");
   }
 
   return (
