@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function From() {
-  const [name, setName] = useState("");
+  const [name, setName] = useState({ firstName: "", lastName: "" });
   //   function handleChange(evt) {
   //     console.log("change occured");
   //     console.log(evt.target.value);
@@ -16,9 +16,9 @@ export default function From() {
           //     return handleChange(e);
           //   }}
           //   onChange={(e) => handleChange(e)}
-          onChange={(e) => setName(e.target.value)}
+          onChange={(e) => setName({ firstName: e.target.value, lastName: "" })}
           type="text"
-          value={name}
+          value={name.firstName}
           placeholder="First name"
         />
       </form>
