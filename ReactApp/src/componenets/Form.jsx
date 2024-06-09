@@ -10,6 +10,8 @@ export default function From() {
 
   return (
     <div>
+      {name.firstName}
+      {name.lastName}
       <form>
         <input
           //   onChange={function evnt(e) {
