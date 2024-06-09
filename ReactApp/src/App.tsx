@@ -7,7 +7,7 @@ function App() {
     <>
       <div>
         <Fruits />
-        <ConditionalComponent />
+        {/* <ConditionalComponent /> */}
       </div>
     </>
   );
