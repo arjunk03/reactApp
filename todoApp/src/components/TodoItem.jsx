@@ -1,3 +1,5 @@
 export default function TodoItem({ item }) {
-  return <h3 style={{ color: "red" }}>{item}</h3>;
+  const styling = { color: "red" };
+
+  return <h3 style={styling}>{item}</h3>;
 }
