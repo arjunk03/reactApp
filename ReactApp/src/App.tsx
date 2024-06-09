@@ -3,6 +3,7 @@ import Fruits from "./componenets/Fruits";
 import ConditionalComponent from "./componenets/ConditionalComponent";
 import Message from "./componenets/Message";
 import Counter from "./componenets/Counter";
+import Form from "./componenets/Form";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         {/* <Fruits /> */}
         {/* <ConditionalComponent /> */}
         {/* <Message /> */}
-        <Counter />
+        <Form />
       </div>
     </>
   );
