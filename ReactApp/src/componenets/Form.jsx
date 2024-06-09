@@ -11,9 +11,10 @@ export default function From() {
     <div>
       <form>
         <input
-          onChange={(e) => {
-            return handleChange(e);
-          }}
+          //   onChange={function evnt(e) {
+          //     return handleChange(e);
+          //   }}
+          onChange={(e) => handleChange(e)}
           type="text"
           value={name}
           placeholder="First name"
