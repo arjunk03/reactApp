@@ -8,10 +8,15 @@ export default function From() {
   //     setName(evt.target.value);
   //   }
 
+  function handleSubmit(e) {
+    console.log("submit clicked");
+    e.preventDefault();
+    console.log(name);
+  }
+
   return (
     <div>
-      {name.firstName}
-      {name.lastName}
+      {name.firstName} - {name.lastName}
       <form>
         <input
           //   onChange={function evnt(e) {
@@ -30,6 +35,7 @@ export default function From() {
           value={name.lastName}
           placeholder="Last name"
         />
+        <button onClick={(e) => handleSubmit(e)}> Add</button>
       </form>
     </div>
   );
