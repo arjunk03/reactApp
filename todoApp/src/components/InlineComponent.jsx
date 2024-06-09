@@ -1,4 +1,4 @@
 import "../css/style.css";
 export default function InlineComponent() {
-  return <h3 className="header">Inline componen</h3>;
+  return <h3 className="inline-header">Inline componen</h3>;
 }
