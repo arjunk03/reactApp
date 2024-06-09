@@ -1,15 +1,18 @@
 export default function Fruit({ name, price }) {
   return (
-    <li>
+    <div>
       {/* {name} {price} */}
 
       {price > 20 ? (
-        <h3>
-          {name} {price}
-        </h3>
+        <li>
+          {" "}
+          <h3>
+            {name} {price}
+          </h3>{" "}
+        </li>
       ) : (
         ""
       )}
-    </li>
+    </div>
   );
 }
