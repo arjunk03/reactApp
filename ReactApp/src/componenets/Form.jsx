@@ -11,7 +11,7 @@ export default function From() {
     <div>
       <form>
         <input
-          onChange={function evnt(e) {
+          onChange={(e) => {
             return handleChange(e);
           }}
           type="text"
